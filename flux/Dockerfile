@@ -48,4 +48,4 @@ RUN chmod +x /app/startup.sh
 WORKDIR /app
 
 # Run startup script
-CMD ["/app/startup.sh"]
+CMD ["/app/start.sh"]
